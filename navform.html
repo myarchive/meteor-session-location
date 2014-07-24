@@ -1,0 +1,17 @@
+<template name="geonavform">
+	<form class="navbar-form" onsubmit="updateLocation($('#geoform').val()); $('#geoform').addClass('loadinggif'); return false;">
+		<div class="navbar-form input-group" style="margin:0">
+			{{{geoform}}}
+			<div class="input-group-btn">
+				{{{geobutton}}}
+			</div>
+		</div>
+	</form>	
+</template>
+<template name="thfnavbutton">
+	<form class="navbar-form" onsubmit="return false;">
+		<div class="navbar-form input-group" style="margin:0">
+			{{{tfbutton}}}
+		</div>
+	</form>	
+</template>

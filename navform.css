@@ -1,0 +1,30 @@
+.loadinggif {
+    background:url('http://www.hsi.com.hk/HSI-Net/pages/images/en/share/ajax-loader.gif') no-repeat right center !important
+}
+
+#geobutton.disabled {
+	border-color: #999;
+	background-color:#ccc;
+}
+
+#tfb12 {
+	border-radius: 5px 0 0 5px;
+}
+#tfb24 {
+	border-radius: 0 5px 5px 0;
+}
+#tfb12,
+#tfb24 {
+	color: #444;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#tfb12.active,
+#tfb24.active {
+	color: #adf;
+	background-color:#fff;
+}
+#tfb12.active:hover,
+#tfb24.active:hover {
+	background-color:#fff;
+}
