@@ -3,6 +3,6 @@
     "description": "Session based geolocation api package that makes location information available via sessions",
     "homepage": "https://github.com/alisalaah/meteor-session-location",
     "author": "Ali Camarata  (http://alicamarata.com)",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "git": "https://github.com/alisalaah/meteor-session-location.git"
 }
