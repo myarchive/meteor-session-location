@@ -4,6 +4,7 @@ Package.describe({
 
 Package.on_use(function (api) {
 	api.use('standard-app-packages', ['client', 'server']);
+	api.use('googlemaps', 'client');
 	
 	api.add_files("location.js", "client");
     api.add_files("navform.css", "client");
