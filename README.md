@@ -1,4 +1,4 @@
-###Session Location - Meteor Smart Package
+### Session Location - Meteor Smart Package
 
 This smart package uses the geolocation api and keeps the result plus timezone, 
 geocoding and elevation stored as an array in a session named "geo".  The "geo" 
@@ -18,19 +18,18 @@ Also this includes two optional templates "geonavform" and "thfnavbutton".  Upda
 the session variables via the functions or manually can replace the forms if you
 do not want to use them, but they were included for ease and quickness of use.
 
-###How to use?
+### How to use?
 
-1. Install [meteorite](https://github.com/oortcloud/meteorite)
-2. `mrt add session-location`
-3. In your application code (visible to client) add this line -> sessionGeo();
+1. `meteor add alisalaah:session-location`
+2. In your application code (visible to client) add this line -> sessionGeo();
 
-###Functions
+### Functions
 
-####sessionGeo();
+#### sessionGeo();
 
 Initializes and sets the Session data for all variables using Geolocation API
 
-####updateLocation(arg)
+#### updateLocation(arg)
 
 Updates the session variable "loc" for actual use.  Even if you want to use their
 geolocation data use the "loc" data in your actual application not the "geo" variable.
@@ -38,7 +37,7 @@ geolocation data use the "loc" data in your actual application not the "geo" var
 updateLocation(true); // Updates "loc" using the geolocation data
 updateLocation("London"); // Will return guess from Google for best city and set "loc" to that
 
-###Help
+### Help
 
 If you are having any problems debug the content of Session.get("loc") and Session.get("geo")
 as many useful values are there (such as if browser supported geolocation or if the

@@ -10,7 +10,7 @@ Package.onUse(function(api) {
 	api.use(['ui'], 'client');
 	api.use(['blaze'], 'client');
 	api.use(['templating'], 'client');
-	api.use('mrt:googlemaps', 'client');
+	api.use('mrt:googlemaps@0.1.1', 'client');
 	
 	api.add_files("location.js", "client");
     api.add_files("navform.css", "client");
